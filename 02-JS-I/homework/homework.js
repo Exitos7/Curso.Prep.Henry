@@ -25,11 +25,10 @@ const nuevoModulo = 21 % 5 === 1;
 // Pista: "console.log()" NO fucionará.
 // No cambies los nombres de las funciones.
 
-function devolverString() {
+function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  
-  return str;
+    return str;
 }
 
 function suma(x, y) {
@@ -173,10 +172,11 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  
-  if (num === 0){
+ 
+  if (numero === 0){
     return false;
-  } else if (num > 0){
+  } 
+  else if (numero > 0){
     return "Es positivo";
   } else {
     return "Es negativo";
